@@ -1,0 +1,55 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+
+.mariobg
+{
+	width: 100%;
+	height: 100vh;
+	background-image: url('Images/mario.png');
+	background-size: 100% 100%;
+	position: relative;
+}
+
+
+.mario h2
+{
+	font-size: 2em;
+	color:  black;
+	font-family: 'Roboto Condensed', sans-serif;
+	position:  absolute;
+	left:  30%;
+	
+	animation-name:  text;
+	animation-iteration-count: 5;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-delay: 2s;
+}
+
+
+@keyframes text
+{
+	0%{font-size: 2em;}
+	100%{font-size: 4em;}
+}
+
+
+
+.mario img
+{
+	position: absolute;
+	top: 70%;
+	animation-name:  mario;
+	animation-duration: 6s;
+	animation-iteration-count: 5;
+	animation-timing-function:  linear;
+}
+
+@keyframes mario
+{
+	0%{left: 0%;}
+	100%{left: 80%;}
+}
