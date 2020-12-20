@@ -1,0 +1,59 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+.header h2
+{
+	padding-top: 60px;
+	padding-left: 500px;
+}
+
+.section
+{
+	position: absolute;
+	top: 25%;
+	display: flex;
+}
+.text
+{
+	padding-left: 50px;
+	padding-right: 100px;
+}
+.section img
+{
+	padding-right: 100px;
+	width: 400px;
+	height:300px;
+}
+
+@media (max-width: 374px)
+{
+
+.header h2
+{
+	padding-left: 2px;
+	padding-right: 0px;
+}
+
+.section
+{
+	display: block;
+}
+
+.text
+{
+	padding-left: 0px;
+	padding-right: 0px;
+	box-sizing: border-box;
+	justify-content: center;
+}
+.section img
+{
+	padding-right: 0px;
+	width: 400px;
+	height:300px;
+}
+
+}
